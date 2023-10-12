@@ -33,7 +33,7 @@ const lookup = {
 
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
-  for(let i=0;i<encodedStr;i++)
+  for(let i=0;i<encodedStr.length;i++)
 	  {
 		  let charcode=encodedStr.charCodeAt(i);
 		  var character = String.fromCharCode(charcode);
